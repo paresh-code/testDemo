@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="WSSD_Test.Listeners"/>
+  </listeners>
+  <test name="Login(failed)">
+    <classes>
+      <class name="WSSD_Test.RegGrievanceExternalTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initalize"/>
+        </methods>
+      </class> <!-- WSSD_Test.RegGrievanceExternalTest -->
+      <class name="WSSD_Test.LoginPageTest">
+        <methods>
+          <include name="initalize"/>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- WSSD_Test.LoginPageTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

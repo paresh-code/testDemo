@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53441" started-at="2020-07-08T16:27:48Z" finished-at="2020-07-08T16:28:42Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="38524" started-at="2020-07-08T16:27:48Z" finished-at="2020-07-08T16:28:27Z">
+      <class name="WSSD_Test.LoginPageTest">
+        <test-method status="PASS" signature="initalize()[pri:0, instance:WSSD_Test.LoginPageTest@2e55dd0c]" name="initalize" is-config="true" duration-ms="8358" started-at="2020-07-08T21:57:48Z" finished-at="2020-07-08T21:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:WSSD_Test.LoginPageTest@2e55dd0c]" name="basePageNavigation" duration-ms="29717" started-at="2020-07-08T21:57:57Z" finished-at="2020-07-08T21:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:WSSD_Test.LoginPageTest@2e55dd0c]" name="teardown" is-config="true" duration-ms="416" started-at="2020-07-08T21:58:27Z" finished-at="2020-07-08T21:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WSSD_Test.LoginPageTest -->
+    </test> <!-- Login -->
+    <test name="RegisterGrievance" duration-ms="13923" started-at="2020-07-08T16:28:28Z" finished-at="2020-07-08T16:28:42Z">
+      <class name="WSSD_Test.RegGrievanceExternalTest">
+        <test-method status="PASS" signature="initalize()[pri:0, instance:WSSD_Test.RegGrievanceExternalTest@41fecb8b]" name="initalize" is-config="true" duration-ms="5950" started-at="2020-07-08T21:58:28Z" finished-at="2020-07-08T21:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalize -->
+        <test-method status="PASS" signature="createComplaint()[pri:0, instance:WSSD_Test.RegGrievanceExternalTest@41fecb8b]" name="createComplaint" duration-ms="7972" started-at="2020-07-08T21:58:34Z" finished-at="2020-07-08T21:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComplaint -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:WSSD_Test.RegGrievanceExternalTest@41fecb8b]" name="teardown" is-config="true" duration-ms="1" started-at="2020-07-08T21:58:42Z" finished-at="2020-07-08T21:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- WSSD_Test.RegGrievanceExternalTest -->
+    </test> <!-- RegisterGrievance -->
+  </suite> <!-- Suite -->
+</testng-results>
